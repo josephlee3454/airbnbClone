@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.nav{
+  background-color: '#FFFFFF';
+  display: flex;
+  box-shadow:
+  inset 0 -2px 0 0 rgb(204, 202, 202);
+}
+.hero{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.heroImg{
+  align-self: center;
+}
+.hero-title{
+  margin-bottom: 16px;
+  padding-left: 30px;
+  font-size: 50px;
+}
+.hero-paragraph{
+margin-top: 0;
+font-size: 25px;
+padding-left: 30px;
+width: 480px;
+}
+
+h2{
+  font-size: .75rem;
+  font-weight: normal;
+}
+
+.gray{
+  color:#918E9B
+}
+.card{
+  width: 18rem;
+  font-size: 1rem;
+  margin: 3rem;
+  
+}
+.card--image{
+  width: 100%;
+}
+
+.card--stats{
+  display: flex;
+  align-items: center;
+}
+.card--star{
+  height: 14px;
+
+}
+.card-group{
+  display: flex;
+  justify-content: center;
+}
+
